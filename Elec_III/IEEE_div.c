@@ -1,6 +1,7 @@
 #include <stdlib.h>
+#include "elec.h"
 
-int IEEE_div (int IEEE_float1, int IEEE_float2){
+uint32_t IEEE_div (uint32_t IEEE_float1, uint32_t IEEE_float2){
 
 
     return ;

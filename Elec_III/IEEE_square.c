@@ -1,6 +1,7 @@
 #include <stdlib.h>
+#include "elec.h"
 
-int IEEE_square(int IEEE_float){
+uint32_t IEEE_square(uint32_t IEEE_float){
 
     return IEEE_mult(IEEE_float, IEEE_float);
     }

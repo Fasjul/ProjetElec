@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include "elec.h"
 
-int std_dev(int* IEEE_measures, size_t m_number){
+uint32_t std_dev(uint32_t* IEEE_measures, size_t m_number){
     int i =0;
-    int avg = average(IEEE_measures, m_number);
-    int sum = 0;
-    int subst = 0;
-    int squared = 0;
-    int var = 0;
+    uint32_t avg = average(IEEE_measures, m_number);
+    uint32_t sum = 0;
+    uint32_t subst = 0;
+    uint32_t squared = 0;
+    uint32_t var = 0;
 
     while (i < m_number){
 
