@@ -31,7 +31,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="IEEE_add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IEEE_div.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="IEEE_mult.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IEEE_sqrt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IEEE_square.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IEEE_sub.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="average.c">
@@ -39,6 +54,12 @@
 		</Unit>
 		<Unit filename="elec.h" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shiftandadd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="std_dev.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
