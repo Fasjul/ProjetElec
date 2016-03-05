@@ -19,7 +19,13 @@ uint32_t IEEE_mult(uint32_t measure1, uint32_t measure2){
     mantisse1 += norm; //on ajoute le 1 devant les mantisses
     uint32_t mantisse2 = (measure2<<9) >>9;
     mantisse2 += norm;
-    uint32_t mantmult = shiftandadd(mantisse1, mantisse2, normal); //on a la nouvelle mantisse ainsi que la position du 1 de poids fort
+    //uint32_t mantmult = shiftandadd(mantisse1, mantisse2, normal); //on a la nouvelle mantisse ainsi que la position du 1 de poids fort
+
+
+    uint32_t mantmult = (1<<20) + (1<<18) + (3<<16) + (1<<22);
+    normal[0] = 23;
+
+
     exponent_correction = normal[0] - 23; //rang à ajouter à l'exposant
     result = (mantmult << (32 - normal[0])) >> 9; // neuf zéros puis la mantisse
 
