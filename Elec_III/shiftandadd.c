@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "elec.h"
 
-uint32_t shiftandadd(uint32_t nb1, uint32_t nb2){
+uint32_t shiftandadd(uint32_t nb1, uint32_t nb2, int* normal){ //stocker dans normal [0] la position du 1 de poids fort
 int i = 0;
 int j =0;
 int carryout;
@@ -23,6 +23,6 @@ uint32_t tmp1;
 
 
     }
-return 0;
+return 0; //sortir les 32 bits de poids fort du résultat
 
 }
