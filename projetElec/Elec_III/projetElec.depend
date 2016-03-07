@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1457351378 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/average.c
+	<stdlib.h>
+	"elec.h"
+
+1457353953 /home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/elec.h
+
+1457351378 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/IEEE_add.c
+	<stdlib.h>
+	"elec.h"
+
+1457351378 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/IEEE_div.c
+	<stdlib.h>
+	"elec.h"
+
+1457351378 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/IEEE_sqrt.c
+	<stdlib.h>
+	"elec.h"
+
+1457351378 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/IEEE_square.c
+	<stdlib.h>
+	"elec.h"
+
+1457351378 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/IEEE_sub.c
+	<stdlib.h>
+	"elec.h"
+
+1457352979 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/logical_right_shift.c
+	<stdlib.h>
+	"elec.h"
+
+1457354002 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"elec.h"
+
+1457351379 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/shiftandadd.c
+	<stdlib.h>
+	<stdio.h>
+	"elec.h"
+
+1457351379 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/std_dev.c
+	<stdlib.h>
+	"elec.h"
+
+1457353032 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/IEEE_mult.c
+	<stdlib.h>
+	<stdio.h>
+	"elec.h"
+
+1457354140 source:/home/INTRANET/fasquell/myfiles/Elec/projetElec/Elec_III/showbits.c
+	<stdio.h>
+	"elec.h"
+
